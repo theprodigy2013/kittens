@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    background: linear-gradient(135deg, #8B0000, #B22222);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,10 +10,10 @@ body {
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(139, 0, 0, 0.8);
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     text-align: center;
     width: 90%;
     max-width: 400px;
@@ -32,28 +32,35 @@ label {
     font-weight: 400;
 }
 
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
 input[type="text"] {
-    width: calc(100% - 22px);
+    width: calc(100% - 100px);
     padding: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
     margin-bottom: 20px;
     font-size: 1em;
 }
 
 button {
-    padding: 10px 20px;
+    width: 100px;
+    padding: 10px;
     border: none;
-    border-radius: 5px;
-    background-color: #d391fa;
+    border-radius: 0 5px 5px 0;
+    background-color: #8B0000;
     color: #fff;
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-bottom: 20px;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #B22222;
 }
 
 .hidden {
