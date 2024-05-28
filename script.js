@@ -10,7 +10,7 @@ function displayGreeting() {
     var randomImage = images[Math.floor(Math.random() * images.length)];
     
     if(name) {
-        greetingMessage.textContent = "Here's what awaits you, " + name + ":";
+        greetingMessage.textContent = "Here's what awaits your baby, " + name + ":";
         customImage.src = randomImage;
         customImage.style.display = 'block';
     } else {
