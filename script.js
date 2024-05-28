@@ -19,7 +19,6 @@ function displayGreeting() {
         'assets/15.jpg',
         'assets/16.jpg',
         'assets/17.jpg',
-        'assets/18.jpg',
         'assets/19.png',
         'assets/20.png',
         'assets/21.png',
