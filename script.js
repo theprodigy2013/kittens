@@ -1,26 +1,20 @@
-document.getElementById('nameForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    const name = document.getElementById('name').value;
-    const phrases = [
-        "Have a great day, " + name + "!",
-        "You're amazing, " + name + "!",
-        "Stay positive, " + name + "!",
-        "Keep smiling, " + name + "!",
-        "You rock, " + name + "!"
-    ];
-
-    const images = [
+function displayGreeting() {
+    var name = document.getElementById('nameInput').value;
+    var greetingMessage = document.getElementById('greetingMessage');
+    var customImage = document.getElementById('customImage');
+    var images = [
         'assets/image1.jpg',
         'assets/image2.jpg',
-        'assets/image3.jpg',
-        'assets/image4.jpg',
-        'assets/image5.jpg'
+        'assets/image3.jpg'
     ];
-
-    const randomPhrase = phrases[Math.floor(Math.random() * phrases.length)];
-    const randomImage = images[Math.floor(Math.random() * images.length)];
-
-    document.getElementById('greetingText').innerText = randomPhrase;
-    document.getElementById('randomImage').src = randomImage;
-    document.getElementById('greeting').classList.remove('hidden');
-});
+    var randomImage = images[Math.floor(Math.random() * images.length)];
+    
+    if(name) {
+        greetingMessage.textContent = "Hello, " + name;
+        customImage.src = randomImage;
+        customImage.style.display = 'block';
+    } else {
+        greetingMessage.textContent = "Please enter your name.";
+        customImage.style.display = 'none';
+    }
+}
