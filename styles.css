@@ -1,19 +1,19 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #8B0000, #B22222);
+    background: #f7f7f7;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    color: #fff;
+    color: #333;
 }
 
 .container {
-    background-color: rgba(139, 0, 0, 0.8);
+    background-color: #fff;
     padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 90%;
     max-width: 400px;
@@ -21,46 +21,40 @@ body {
 
 h1 {
     margin-bottom: 20px;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 700;
+    color: #333;
 }
 
 label {
     display: block;
     margin-bottom: 10px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 400;
 }
 
-.input-group {
-    display: flex;
-    align-items: center;
-}
-
 input[type="text"] {
-    width: calc(100% - 100px);
+    width: calc(100% - 20px);
     padding: 10px;
-    border: none;
-    border-radius: 5px 0 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     margin-bottom: 20px;
     font-size: 1em;
 }
 
 button {
-    width: 100px;
-    padding: 10px;
+    padding: 10px 20px;
     border: none;
-    border-radius: 0 5px 5px 0;
-    background-color: #8B0000;
+    border-radius: 5px;
+    background-color: #4CAF50;
     color: #fff;
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-bottom: 20px;
 }
 
 button:hover {
-    background-color: #B22222;
+    background-color: #45a049;
 }
 
 .hidden {
@@ -80,5 +74,5 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
