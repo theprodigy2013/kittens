@@ -10,11 +10,11 @@ function displayGreeting() {
     var randomImage = images[Math.floor(Math.random() * images.length)];
     
     if(name) {
-        greetingMessage.textContent = "Hello, " + name;
+        greetingMessage.textContent = "Here's what awaits you, " + name + ":";
         customImage.src = randomImage;
         customImage.style.display = 'block';
     } else {
-        greetingMessage.textContent = "Please enter your name.";
+        greetingMessage.textContent = "Your name first.";
         customImage.style.display = 'none';
     }
 }
