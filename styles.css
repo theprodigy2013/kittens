@@ -34,7 +34,7 @@ input[type="text"] {
     border-radius: 8px;
     transition: border-color 0.3s;
     flex: 1;
-    margin-right: 10px; /* Separate the input from the button */
+    margin-right: 10px; 
 }
 input[type="text"]:focus {
     border-color: #007bff;
