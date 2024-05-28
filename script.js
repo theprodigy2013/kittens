@@ -7,7 +7,6 @@ function displayGreeting() {
         'assets/2.jpg',
         'assets/3.jpg',
         'assets/4.gif',
-        'assets/5.jpg',
         'assets/6.png',
         'assets/7.png',
         'assets/8.png',
