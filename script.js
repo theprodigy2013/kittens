@@ -12,7 +12,6 @@ function displayGreeting() {
         'assets/7.png',
         'assets/8.png',
         'assets/9.png',
-        'assets/10.png',
         'assets/11.png',
         'assets/12.png',
         'assets/13.png',
