@@ -20,9 +20,12 @@ function displayGreeting() {
         customImage.src = randomImage;
         customImage.style.display = 'block';
 
+        // Ensure the button is hidden initially
+        redirectButton.style.display = 'none';
+
         // Once the image is loaded, show the button
         customImage.onload = function() {
-            redirectButton.style.display = 'block';
+            redirectButton.style.display = 'inline-block';
         };
     } else {
         greetingMessage.textContent = "Your name first.";
