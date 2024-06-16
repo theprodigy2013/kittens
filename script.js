@@ -23,20 +23,3 @@ function displayGreeting() {
         customImage.style.display = 'none';
     }
 }
-
-// script.js
-
-document.addEventListener('DOMContentLoaded', function() {
-    // Function to generate the image
-    function generateImage() {
-        const imageContainer = document.getElementById('image-container');
-        const img = document.createElement('img');
-        img.src = 'web/1.jpg'; // Replace with your actual image path or randomize
-        img.alt = 'Generated Kitten Image';
-        imageContainer.appendChild(img);
-    }
-
-    // Call the function to generate the image
-    generateImage();
-});
-
