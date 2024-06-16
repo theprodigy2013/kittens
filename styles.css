@@ -74,3 +74,17 @@ button:hover {
 .custom-image:hover {
     transform: scale(1.05);
 }
+.hidden-button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    display: none; 
+    background-color: #218838;
+    transform: translateY(-2px);
+}
