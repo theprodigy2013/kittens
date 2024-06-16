@@ -74,6 +74,8 @@ button:hover {
 .custom-image:hover {
     transform: scale(1.05);
 }
+
+/* New styles for the hidden button */
 .hidden-button {
     margin-top: 20px;
     padding: 12px 25px;
@@ -84,7 +86,9 @@ button:hover {
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
-    display: none; 
+    display: none; /* Ensure the button is hidden initially */
+}
+.hidden-button:hover {
     background-color: #218838;
     transform: translateY(-2px);
 }
