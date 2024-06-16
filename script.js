@@ -20,10 +20,10 @@ function displayGreeting() {
         customImage.src = randomImage;
         customImage.style.display = 'block';
 
-        // Ensure the button is hidden initially
+        
         redirectButton.style.display = 'none';
 
-        // Once the image is loaded, show the button
+        
         customImage.onload = function() {
             redirectButton.style.display = 'inline-block';
         };
@@ -34,7 +34,6 @@ function displayGreeting() {
     }
 }
 
-// Add an event listener to the button to redirect to the Google Form
 document.getElementById('redirectButton').addEventListener('click', function() {
-    window.location.href = 'https://docs.google.com/forms/d/your_custom_form_id'; // Replace with your Google Form URL
+    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfTHkInnAtzTH_zTbiha0wF9_ai5zlq-P1tLt6KjtSwXhdEaw/viewform?usp=sf_link';
 });
