@@ -22,7 +22,7 @@ function displayGreeting() {
 
         // Once the image is loaded, show the button
         customImage.onload = function() {
-            redirectButton.style.display = 'inline-block';
+            redirectButton.style.display = 'block';
         };
     } else {
         greetingMessage.textContent = "Your name first.";
